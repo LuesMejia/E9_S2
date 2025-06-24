@@ -1,0 +1,32 @@
+#tituloP {
+    color: #ffc107;
+}
+
+#sub-titulo {
+    font-size: 30px;
+    color: #ffc107;
+}
+
+
+#parrafo {
+    text-align: justify;
+}
+
+#boton {
+    margin-left: 5px;
+}
+
+#cardColor {
+    background-color: rgb(27, 27, 27);
+}
+
+
+#PImagen {
+    text-align: center;
+}
+
+#imagen {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
