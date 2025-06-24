@@ -1,44 +1,57 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Página web Ejercicio 5 - Semana 3" />
-    <meta name="author" content="Luesbelin Mejia" />
-    <title>Ejercicio 5 - Semana 3</title> 
-    <script src="./js/script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
-    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/EstiloLogin.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/boxicons.min.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Ejercicio 5 de la Semana 3</h1>
-    </header>
+    <header></header>
 
     <main>
+      <div class="wrapper">
+        <form action="./index.html">
+          <h1>Login</h1>
+          <div class="input-box">
+            <i class="bx bxs-user-circle"></i>
+            <input type="text" placeholder="Usuario" required />
+          </div>
+          <div class="input-box">
+            <i class="bx bxs-lock"></i>
+            <input type="password" placeholder="Contraseña" required />
+          </div>
+          <div class="remember-forget">
+            <label>
+              <input type="checkbox" />
+              Recuerdame
+            </label>
+            <label>
+              <a href="">Recuperar Contraseña</a>
+            </label>
+          </div>
 
-  
-     <form id="form-login"> 
-      <div>
-        <label for="usuario">Usuario: </label>
-        <input type="text"id="usuario" required placeholder="admin">
+          <button type="submit" class="btn">Ingresar</button>
+          <div class="register-link">
+            <p>
+              ¿No tienes cuenta?
+              <a href="">Registrate aquí</a>
+            </p>
+          </div>
+        </form>
       </div>
-      <br>
-      <div>
-        <label for="contrasena">Contraseña: </label>
-        <input type="password"id="contrasena" required placeholder="1234">
-      </div>
-      <button type="submit">Ingresar</button>
-      <p id="mensaje-error" class="error"></p>
-     </form>
-   
-
     </main>
 
-    <section>
-    </section>
+    <section></section>
 
     <footer></footer>
+    <script src="./js/Login.js"></script>
   </body>
 </html>
